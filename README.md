@@ -9,3 +9,10 @@ The config file takes the input of email address that is to be used to send emai
 3. Main file
 This file takes the list input of shows from config file and then finds out the information about the shows using the details function.
 It saves the information about the email address of user and the list of shows in MySQL database by creating table if not created then insert the information about the email address and the show details. The information is fetched from the database and sent to the user's email id.
+
+To run this program you must download following libraries and you must have mysql installed.
+1. import requests
+2. from lxml import html
+3. from datetime import date
+4. import smtplib
+5. import pymysql
